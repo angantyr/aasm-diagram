@@ -8,11 +8,11 @@ require 'aasm_diagram/version'
 Gem::Specification.new do |spec|
   spec.name          = 'aasm-diagram'
   spec.version       = AASMDiagram::VERSION
-  spec.authors       = ['Kate Murphy']
+  spec.authors       = ['Kate Murphy', 'Vladislav Ponomarev']
   spec.email         = ['code@kate.io']
 
   spec.summary       = 'Automatically generate diagrams of AASM state machines.'
-  spec.homepage      = 'https://github.com/katee/aasm-diagram'
+  spec.homepage      = 'https://github.com/Mayurifag/aasm-diagram'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

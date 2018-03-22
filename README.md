@@ -34,14 +34,14 @@ Now in your console you can execute:
 >> AASMDiagram::Diagram.new(job.aasm, 'tmp/job.png')
 ```
 
-It will generate the following diagram:
+These commands will generate the following diagram:
 
 ![Diagram of Job state machine](docs/job.png)
 
 ## Installation
 
 * Install Graphviz ([see the rails-erd guide for more details](https://voormedia.github.io/rails-erd/install.html)). If you use Homebrew try `brew install graphviz`.
-* Add `gem 'aasm-diagram', require: false, group: :development` to your `Gemfile` and run `bundle`.
+* Add `gem 'aasm-diagram', github: 'Mayurifag/aasm-diagram', require: false, group: :development` to your `Gemfile` and run `bundle`.
 
 ## More Examples
 
