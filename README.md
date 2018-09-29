@@ -1,6 +1,6 @@
 # AASM Diagram
 
-[AASM Diagram](https://github.com/katee/aasm-diagram) creates diagrams for [ASSM](https://github.com/aasm/aasm) state machines. 
+[AASM Diagram](https://github.com/katee/aasm-diagram) creates diagrams for [AASM](https://github.com/aasm/aasm) state machines. 
 For example, lets take **Job** model from the [AASM Readme](https://github.com/aasm/aasm/blob/master/README.md):
 
 ```ruby
